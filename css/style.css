@@ -1,5 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body {
+    background: rgb(243, 243, 240);
+    font-family: OpenSans;
+    font-size: 20px;
+    line-height: 24px;
+
+    
+}
+
+header {
+    background: url(/img/header_bg.jpg) no-repeat;
+    background-position: center;
+    height: 400px;
+    border-radius: 30px;
+    font-size: 32px;
+}
+
+ul {
+    list-style: none;    
+}
+
+a {
+    color: black;
+    text-decoration: none;    
+}
+
+.nav ul {
+    display: flex;
+    justify-content: center;
+    background: rgb(234, 231, 231);
+    margin: 305px 0;
+    padding: 10px;
+    flex-direction: row;
+    gap: 20px;
+    
+}
+
+.nav li {
+    font-size: 22px;
+}
+
+.nav li:hover {
+    font-weight: bold;
 }

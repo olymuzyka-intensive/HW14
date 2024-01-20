@@ -5,7 +5,7 @@ class Header {
         const elem = document.createElement('header');
         elem.classList.add('header');
 
-        elem.innerHTML = 'Header';
+        elem.innerHTML = 'За покупками только к нам';
 
         return elem;
     }
