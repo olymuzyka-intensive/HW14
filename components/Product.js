@@ -16,7 +16,7 @@ class Product {
         <div class="product__image"><img src="${product.image}" alt="${product.title}" /></div>
         
         <div class="product__content">
-            <div class="product__description">$${product.description}</div>
+            <div class="product__description">${product.description}</div>
             <div class="product__price">$${product.price}</div>
             <div class="product__reviews">Rate ${product.rating.rate}. Count reviews ${product.rating.count}</div>
         </div>`;

@@ -5,7 +5,9 @@ class Header {
         const elem = document.createElement('header');
         elem.classList.add('header');
 
-        elem.innerHTML = 'За покупками только к нам';
+        elem.innerHTML = `
+        <p>THE WIDEST SELECTION AND GUARANTEED BEST DEALS</p>
+        `;
 
         return elem;
     }
