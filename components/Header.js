@@ -1,6 +1,4 @@
-import { nav } from "./Nav.js";
-// import { burger } from "./Burger.js";
-
+import { burger, nav } from "./Nav.js";
 
 class Header {
     #create() {
@@ -18,6 +16,7 @@ class Header {
         const elem = this.#create();
 
         if (nav) elem.append(nav);
+        if (burger) elem.append(burger); //
 
         return elem;
     }
