@@ -4,7 +4,7 @@ class Footer {
         elem.classList.add('footer');
 
         elem.innerHTML = `
-            <p>Любимые бренды и самые горячие тренды</p>
+            <p>Favorite brands and the hottest trends</p>
         `;
 
         return elem;

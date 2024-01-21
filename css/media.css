@@ -1,0 +1,44 @@
+@media (max-width: 768px) {
+    header p {
+        font-size: 32px;
+    }
+
+    .burger {
+        display: flex;
+    }
+
+    .nav {
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: 50;
+        overflow-y: auto;
+        padding: 50px 40px;
+        /* background: rgb(252, 249, 249); */
+        animation: burgerAnim 0.4s;
+    }
+
+    .nav ul {
+        flex-direction: column;
+        gap: 5px;
+    }
+    .nav li {
+        font-size: 18px;
+        padding: 0;
+    }
+}
+
+@keyframes burgerAnim {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

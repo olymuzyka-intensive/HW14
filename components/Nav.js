@@ -14,7 +14,7 @@ class Nav {
 
         return elem;
     }
-
+    
     init() {
         this.elem = this.create();
 
