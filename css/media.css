@@ -44,5 +44,21 @@
             opacity: 1;
         }
     }
+    .product__image img {
+        margin: 50px;    
+        height: 400px;
+    }
 }
+
+@media (max-width: 768px) {
+    .product__image img {
+        margin: 25px;    
+    }
+    .product__description {
+        max-width: 285px;
+        word-wrap: break-word;
+    }
+    
+}
+    
 
